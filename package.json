@@ -1,5 +1,5 @@
 {
-  "name": "cubes.ts",
+  "name": "cubes",
   "version": "1.0.0",
   "description": "A statically typed client library for DataBrewery's Cubes OLAP server.",
   "main": "dist/cubes.js",
