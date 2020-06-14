@@ -1,14 +1,14 @@
 import { Cube, ICubeProps } from './cube';
 import serializer from './query-serializer';
 
-interface ICubeListMember {
+export interface ICubeListMember {
     category: any;
     info: Object | null;
     label: string;
     name: string;
 }
 
-interface ICubesServerInfo {
+export interface ICubesServerInfo {
     json_record_limit: number;
     cubes_version: string;
     timezone: string;
@@ -95,5 +95,3 @@ export class Server {
         );
     }
 }
-
-export default Server;
